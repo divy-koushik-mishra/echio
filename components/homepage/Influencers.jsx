@@ -6,7 +6,7 @@ export default function Influencers() {
 	return (
 		<div className="bg-white text-black">
 			<div className="mx-[5rem] mt-[9.75rem] mb-24 flex flex-col justify-center items-center">
-				<div className="flex justify-center items-center gap-6">
+				<div className="flex justify-center items-center gap-20">
 					<div className="flex flex-col">
 						<h1 className="text-transparent text-[5rem] font-syne font-bold bg-gradient-to-b from-[#00C5D4] to-[#000] bg-clip-text">
 							Influencers
@@ -38,7 +38,7 @@ export default function Influencers() {
 				</div>
 			</div>
 			<div className="mx-[5rem] mt-[9.75rem] mb-24 flex flex-col justify-center items-center">
-				<div className="flex flex-row-reverse justify-center items-center gap-6">
+				<div className="flex flex-row-reverse justify-center items-center gap-20">
 					<div className="flex flex-col">
 						<h1 className="text-transparent text-[5rem] font-syne font-bold bg-gradient-to-b from-[#00C5D4] to-[#000] bg-clip-text">
 							Our Services

@@ -6,6 +6,13 @@ import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import yt from "./yt.svg";
 import footerLogo from "./footerLogo.png";
+import circle from "./circle.png";
+import redbull from "./redbull.png";
+import booyah from "./booyah.png";
+import wings from "./wings.png";
+import sadar from "./sadar.png";
+import qlan from "./qlan.png";
+import loco from "./loco.png";
 
 export {
 	echio,
@@ -16,4 +23,11 @@ export {
 	twitter,
 	yt,
 	footerLogo,
+	circle,
+	redbull,
+	booyah,
+	wings,
+	sadar,
+	qlan,
+	loco,
 };

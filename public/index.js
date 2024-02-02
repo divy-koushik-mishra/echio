@@ -1,5 +1,6 @@
 import echio from "./echio-logo.svg";
 import arrowRight from "./arrow-right.svg";
+import arrowRightWhite from "./arrow-right-white.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
@@ -13,10 +14,15 @@ import wings from "./wings.png";
 import sadar from "./sadar.png";
 import qlan from "./qlan.png";
 import loco from "./loco.png";
+import influencerone from "./influencerone.png";
+import influencertwo from "./influencer2.png";
+import studioone from "./studioone.png";
+import studiotwo from "./studiotwo.png";
 
 export {
 	echio,
 	arrowRight,
+	arrowRightWhite,
 	facebook,
 	instagram,
 	linkedin,
@@ -30,4 +36,8 @@ export {
 	sadar,
 	qlan,
 	loco,
+	influencerone,
+	influencertwo,
+	studioone,
+	studiotwo,
 };

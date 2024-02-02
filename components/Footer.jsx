@@ -10,65 +10,113 @@ import {
 } from "@/public/index";
 
 export default function Footer() {
+	const currentYear = new Date().getFullYear();
 	return (
-		<div className="mx-auto py-16 px-4 flex gap-8 text-gray-300 bg-white">
-			<div className="flex flex-row justify-between items-center">
-				<Image src={footerLogo} alt="footer-logo" />
-				<button>Stay in Touch</button>
-			</div>
-			{/* <div className="grid grid-flow-col">
-				<h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
-				<p className="py-4">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit
-					ullam iste repellat consequatur libero reiciendis, blanditiis
-					accusantium.
-				</p>
-				<div className="flex justify-between md:w-[75%] my-6">
-					<Image src={facebook} alt="social-icon" />
-					<Image src={instagram} alt="social-icon" />
-					<Image src={linkedin} alt="social-icon" />
-					<Image src={twitter} alt="social-icon" />
-					<Image src={yt} alt="social-icon" />
+		<>
+			<style>
+				{`
+    .border-gradient {
+      border-image: linear-gradient(to right, #00C5D4, #000);
+      border-image-slice: 1;
+    }
+
+    .text-gradient {
+			background:linear-gradient(to right, #00C5D4, #000);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+  `}
+			</style>
+			<div className="text-black bg-white">
+				<div className="mx-20 mt-[8.75rem] mb-20 px-20 py-12">
+					<div className="flex flex-row justify-between items-center mb-16">
+						<Image
+							src={footerLogo}
+							alt="footer-logo"
+							className="w-[18rem] h-16"
+						/>
+						<button
+							className={`font-inter flex justify-center items-center border text-xl text-gradient border-gradient font-medium rounded-[0.25rem] px-6 py-4 transition duration-300 ease-in-out hover:shadow-top-md hover:shadow-bottom-md `}
+						>
+							Stay in Touch
+						</button>
+					</div>
+					<div className="flex justify-between items-start gap-14 mb-14">
+						<div className="max-w-[20rem]">
+							<h1 className="font-syne text-4xl font-medium mb-[1.5rem]">
+								Disclaimer
+							</h1>
+							<p className="text-[#323232] text-base text-left">
+								Echiofy Private Limited is an unlisted private company
+								incorporated on 25 March 2022. It is classified as a private
+								limited company and is located in Delhi. The Corporate
+								Identification Number (CIN) of Echiofy Private Limited is
+								U72900DL2022PTC395579.
+								<br />
+								<br />
+								The registered office of Echiofy Private Limited is at 303,
+								Tower B, Logix Technova, Sector 132, Noida- 201301.
+								<br />
+							</p>
+						</div>
+						<div className="">
+							<h1 className="font-syne text-4xl font-medium mb-[1.5rem]">
+								Company
+							</h1>
+							<p className="text-[#323232] text-xl">Blogs</p>
+							<p className="text-[#323232] text-xl">Team</p>
+							<p className="text-[#323232] text-xl">About</p>
+							<p className="text-[#323232] text-xl">Partner With Us</p>
+							<p className="text-[#323232] text-xl">Our Case Study</p>
+							<p className="text-[#323232] text-xl">Our Journey</p>
+						</div>
+						<div className="">
+							<h1 className="font-syne text-4xl font-medium mb-[1.5rem]">
+								Features
+							</h1>
+							<p className="text-[#323232] text-xl">Brands</p>
+							<p className="text-[#323232] text-xl">Influencers</p>
+							<p className="text-[#323232] text-xl">Studio</p>
+							<p className="text-[#323232] text-xl">Agency</p>
+							<p className="text-[#323232] text-xl">Our Services</p>
+						</div>
+						<div className="">
+							<h1 className="font-syne text-4xl font-medium mb-[1.5rem]">
+								Policy
+							</h1>
+							<p className="text-[#323232] text-xl">Privacy Policy</p>
+							<p className="text-[#323232] text-xl">Terms & Conditions</p>
+						</div>
+						<div className="">
+							<h1 className="font-syne text-4xl font-medium mb-[1.5rem]">
+								Contact Us
+							</h1>
+							<p className="text-[#323232] text-xl">Call Us</p>
+							<p className="text-[#323232] text-xl">Email Us</p>
+							<p className="text-[#323232] text-xl">Bangalore, India</p>
+						</div>
+					</div>
+					<div className="flex justify-between items-center">
+						<div className="flex justify-center items-center">
+							<p className="text-center">
+								201301. &copy; Copyright {currentYear} Echiofy Private Limited.
+								All Rights Reserved.
+							</p>
+						</div>
+						<div className="flex flex-col">
+							<p className="mb-3">Follow Us On</p>
+							<div className="flex gap-x-6">
+								<Image src={facebook} alt="social-icon" />
+								<Image src={instagram} alt="social-icon" />
+								<Image src={linkedin} alt="social-icon" />
+								<Image src={twitter} alt="social-icon" />
+								<Image src={yt} alt="social-icon" />
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div className="lg:col-span-2 flex justify-between mt-6">
-				<div>
-					<h6 className="font-medium text-gray-400">Solutions</h6>
-					<ul>
-						<li className="py-2 text-sm">Analytics</li>
-						<li className="py-2 text-sm">Marketing</li>
-						<li className="py-2 text-sm">Commerce</li>
-						<li className="py-2 text-sm">Insights</li>
-					</ul>
-				</div>
-				<div>
-					<h6 className="font-medium text-gray-400">Support</h6>
-					<ul>
-						<li className="py-2 text-sm">Pricing</li>
-						<li className="py-2 text-sm">Documentation</li>
-						<li className="py-2 text-sm">Guides</li>
-						<li className="py-2 text-sm">API Status</li>
-					</ul>
-				</div>
-				<div>
-					<h6 className="font-medium text-gray-400">Company</h6>
-					<ul>
-						<li className="py-2 text-sm">About</li>
-						<li className="py-2 text-sm">Blog</li>
-						<li className="py-2 text-sm">Jobs</li>
-						<li className="py-2 text-sm">Press</li>
-						<li className="py-2 text-sm">Careers</li>
-					</ul>
-				</div>
-				<div>
-					<h6 className="font-medium text-gray-400">Legal</h6>
-					<ul>
-						<li className="py-2 text-sm">Claim</li>
-						<li className="py-2 text-sm">Policy</li>
-						<li className="py-2 text-sm">Terms</li>
-					</ul>
-				</div>
-			</div> */}
-		</div>
+		</>
 	);
 }

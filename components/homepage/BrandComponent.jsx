@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { arrowRight } from "@/public/index";
 
-export default function Brand() {
+export default function BrandComponent() {
 	return (
 		<div className="flex flex-row justify-center items-center gap-14 my-[9.75rem] mx-[3.5rem]">
 			<div className="">Images</div>

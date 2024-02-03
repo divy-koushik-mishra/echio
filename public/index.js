@@ -35,6 +35,7 @@ import pen from "./pen.svg";
 import computer from "./computer.svg";
 import laptop from "./laptop.svg";
 import servicePhone from "./servicePhone.svg";
+import monetization from "./monetization.svg";
 
 export {
 	echio,
@@ -74,4 +75,5 @@ export {
 	computer,
 	laptop,
 	servicePhone,
+	monetization,
 };

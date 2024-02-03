@@ -36,6 +36,13 @@ import computer from "./computer.svg";
 import laptop from "./laptop.svg";
 import servicePhone from "./servicePhone.svg";
 import monetization from "./monetization.svg";
+import studioHeroImage from "./studioHeroImage.svg";
+import cameraWhite from "./cameraWhite.svg";
+import soundWhite from "./soundWhite.svg";
+import computerWhite from "./computerWhite.svg";
+import wallWhite from "./wallWhite.svg";
+import penWhite from "./penWhite.svg";
+import laptopWhite from "./laptopWhite.svg";
 
 export {
 	echio,
@@ -76,4 +83,11 @@ export {
 	laptop,
 	servicePhone,
 	monetization,
+	studioHeroImage,
+	cameraWhite,
+	soundWhite,
+	computerWhite,
+	wallWhite,
+	penWhite,
+	laptopWhite,
 };

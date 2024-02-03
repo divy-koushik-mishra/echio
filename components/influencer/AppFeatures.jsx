@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { arrowRight, brandImage } from "@/public/index";
+import { brandImage } from "@/public/index";
 
 export default function AppFeatures() {
 	return (

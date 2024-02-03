@@ -43,6 +43,11 @@ import computerWhite from "./computerWhite.svg";
 import wallWhite from "./wallWhite.svg";
 import penWhite from "./penWhite.svg";
 import laptopWhite from "./laptopWhite.svg";
+import rightArrow from "./rightArrow.svg";
+import himanshuOne from "./himanshuOne.svg";
+import himanshuTwo from "./himanshuTwo.svg";
+import himanshuThree from "./himanshuThree.svg";
+import himanshuFour from "./himanshuFour.png";
 
 export {
 	echio,
@@ -90,4 +95,9 @@ export {
 	wallWhite,
 	penWhite,
 	laptopWhite,
+	rightArrow,
+	himanshuOne,
+	himanshuTwo,
+	himanshuThree,
+	himanshuFour,
 };

@@ -34,6 +34,7 @@ import camera from "./camera.svg";
 import pen from "./pen.svg";
 import computer from "./computer.svg";
 import laptop from "./laptop.svg";
+import servicePhone from "./servicePhone.svg";
 
 export {
 	echio,
@@ -72,4 +73,5 @@ export {
 	pen,
 	computer,
 	laptop,
+	servicePhone,
 };

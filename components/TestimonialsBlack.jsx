@@ -8,7 +8,7 @@ import {
 	tumblerBlue,
 } from "@/public/index";
 
-export default function UsedBy() {
+export default function TestimonialsBlack() {
 	return (
 		<div className="bg-white text-black">
 			<h1 className="text-center font-medium font-syne text-[2rem] text-[#090B0B] mb-4">

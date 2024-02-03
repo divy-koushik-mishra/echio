@@ -4,7 +4,7 @@ import AppFeatures from "@/components/influencer/AppFeatures";
 import DownloadApp from "@/components/influencer/DownloadApp";
 import HeroInfluencerPage from "@/components/influencer/HeroInfluencerPage";
 import StudioForInfluencer from "@/components/influencer/StudioForInfluencer";
-import UsedByInfluencer from "@/components/influencer/UsedByInfluencer";
+import UsedByInfluencer from "@/components/TestimonialsBlack";
 import React from "react";
 
 export default function influencer() {

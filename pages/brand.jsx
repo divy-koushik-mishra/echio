@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import BrandAndProductShoot from "@/components/brand/BrandAndProductShoot";
 import HeroBrandPage from "@/components/brand/HeroBrandPage";
 import TopFeatures from "@/components/brand/TopFeatures";
-import UsedBy from "@/components/brand/UsedBy";
+import UsedBy from "@/components/Testimonials";
 import React from "react";
 
 export default function Brand() {

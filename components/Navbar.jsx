@@ -1,10 +1,20 @@
-import React, { useState } from "react";
+"use client";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { echio, arrowRight } from "@/public/index";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
-	const [activeTag, setActiveTag] = useState(null);
+	const [activeTag, setActiveTag] = useState("Home");
+	const router = useRouter();
+
+	useEffect(() => {
+		const currentPath = router.asPath;
+		const initialActiveTag =
+			navbarItems.find((item) => item.href === currentPath)?.tag || "Home";
+		setActiveTag(initialActiveTag);
+	}, []);
 
 	const handleTagClick = (tag) => {
 		setActiveTag(tag);

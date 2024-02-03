@@ -25,6 +25,15 @@ import instagramBlue from "./instagram-blue.svg";
 import quoraBlue from "./quora-blue.svg";
 import redditBlue from "./reddit-blue.svg";
 import tumblerBlue from "./tumbler-blue.svg";
+import googlePlay from "./googlePlay.svg";
+import appStore from "./appStore.svg";
+import heroInfluencer from "./heroInfluencer.png";
+import downloadApp from "./downloadApp.png";
+import studioForInfluencer from "./studioForInfluencer.png";
+import camera from "./camera.svg";
+import pen from "./pen.svg";
+import computer from "./computer.svg";
+import laptop from "./laptop.svg";
 
 export {
 	echio,
@@ -53,4 +62,14 @@ export {
 	quoraBlue,
 	redditBlue,
 	tumblerBlue,
+	footerBlackLogo,
+	heroInfluencer,
+	downloadApp,
+	googlePlay,
+	appStore,
+	studioForInfluencer,
+	camera,
+	pen,
+	computer,
+	laptop,
 };

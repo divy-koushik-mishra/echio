@@ -10,8 +10,8 @@ import {
 
 export default function TestimonialsBlack() {
 	return (
-		<div className="bg-white text-black">
-			<h1 className="text-center font-medium font-syne text-[2rem] text-[#090B0B] mb-4">
+		<div className="bg-black text-white pt-24">
+			<h1 className="text-center font-medium font-syne text-[2rem] text-[#eee] mb-8">
 				Proudly Used by
 			</h1>
 			<div className="flex justify-around items-center mb-[12rem]">

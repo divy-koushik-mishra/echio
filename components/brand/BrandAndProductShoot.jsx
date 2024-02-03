@@ -5,7 +5,7 @@ import { studioone, studiotwo } from "@/public/index";
 export default function BrandAndProductShoot() {
 	return (
 		<div className="bg-white text-black">
-			<div className="mt-[6.15rem] mx-20 mb-[25rem]">
+			<div className="mt-[6.15rem] mx-20 mb-[10rem]">
 				<div className="flex flex-col justify-center items-center gap-8 mb-10">
 					<h1 className="text-transparent text-[5rem] font-syne font-bold bg-gradient-to-r from-[#00C5D4] to-[#000] bg-clip-text">
 						Brand & Product Shoot

@@ -48,6 +48,14 @@ import himanshuOne from "./himanshuOne.svg";
 import himanshuTwo from "./himanshuTwo.svg";
 import himanshuThree from "./himanshuThree.svg";
 import himanshuFour from "./himanshuFour.png";
+import HimanshuMishra from "./HimanshuMishra.svg";
+import NishantMishra from "./NishantMishra.svg";
+import AkhilChoudhary from "./AkhilChoudhary.svg";
+import DhruvSapra from "./DhruvSapra.svg";
+import KomaliAvadhani from "./KomaliAvadhani.svg";
+import GrooveNexus from "./GrooveNexus_Logo.svg";
+import Affinzy from "./Affinzy.svg";
+import DexoMedia from "./DexoMedia.svg";
 
 export {
 	echio,
@@ -100,4 +108,12 @@ export {
 	himanshuTwo,
 	himanshuThree,
 	himanshuFour,
+	HimanshuMishra,
+	NishantMishra,
+	AkhilChoudhary,
+	DhruvSapra,
+	KomaliAvadhani,
+	GrooveNexus,
+	Affinzy,
+	DexoMedia,
 };

@@ -56,6 +56,9 @@ import KomaliAvadhani from "./KomaliAvadhani.svg";
 import GrooveNexus from "./GrooveNexus_Logo.svg";
 import Affinzy from "./Affinzy.svg";
 import DexoMedia from "./DexoMedia.svg";
+import call from "./call.svg";
+import mail from "./mail.svg";
+import location from "./location.svg";
 
 export {
 	echio,
@@ -116,4 +119,7 @@ export {
 	GrooveNexus,
 	Affinzy,
 	DexoMedia,
+	call,
+	mail,
+	location,
 };

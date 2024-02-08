@@ -59,6 +59,11 @@ import DexoMedia from "./DexoMedia.svg";
 import call from "./call.svg";
 import mail from "./mail.svg";
 import location from "./location.svg";
+import collageBG from "./collage-bg.svg";
+import collageOne from "./collage-1.svg";
+import collageTwo from "./collage-2.svg";
+import collageThree from "./collage-3.svg";
+import Graph from "./Graph.png";
 
 export {
 	echio,
@@ -122,4 +127,9 @@ export {
 	call,
 	mail,
 	location,
+	collageBG,
+	collageOne,
+	collageTwo,
+	collageThree,
+	Graph,
 };

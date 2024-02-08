@@ -9,9 +9,9 @@ import React from "react";
 export default function Brand() {
 	return (
 		<main className={`flex min-h-screen flex-col`}>
-			<Navbar />
+			{/* <Navbar /> */}
 			<HeroBrandPage />
-			<TopFeatures />
+			{/* <TopFeatures /> */}
 			<BrandAndProductShoot />
 			<UsedBy />
 			<FooterBlack />

@@ -28,7 +28,15 @@ export default function FooterBlack() {
     }
   `}
 			</style>
-			<div className="text-white bg-black">
+			<div
+				className=""
+				style={{
+					backgroundImage: `linear-gradient(180deg, #252525 0%, #000 100%)`,
+					backgroundSize: "cover",
+					backgroundPosition: "top",
+					boxShadow: "inset 0 0 10px 10px rgba(0, 0, 0, 0.5)",
+				}}
+			>
 				<div className="mx-20 mt-[8.75rem] mb-20 px-20 py-12">
 					<div className="flex flex-row justify-between items-center mb-16">
 						<Image src={footerBlackLogo} alt="footer-logo" />

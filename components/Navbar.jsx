@@ -26,8 +26,8 @@ const Navbar = () => {
 		{ id: 2, href: "/influencer", tag: "Influencers" },
 		{ id: 3, href: "/agency", tag: "Agency" },
 		{ id: 4, href: "/service", tag: "Services" },
-		{ id: 5, href: "/team", tag: "Team" },
-		{ id: 6, href: "/studio", tag: "Studio" },
+		{ id: 5, href: "/studio", tag: "Studio" },
+		{ id: 6, href: "/team", tag: "Team" },
 		{ id: 7, href: "/contact", tag: "Contact Us" },
 	];
 

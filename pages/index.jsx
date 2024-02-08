@@ -9,7 +9,17 @@ import BrandComponent from "@/components/homepage/BrandComponent";
 export default function Home() {
 	return (
 		<main className={`flex min-h-screen flex-col`}>
-			<Navbar />
+			{/* <div
+				className=""
+				style={{
+					backgroundImage: `linear-gradient(180deg, #1E1E1E 0%, #242424 100%)`,
+					backgroundSize: "cover",
+					// backgroundPosition: "top",
+					boxShadow: "inset 0 0 10px 10px rgba(0, 0, 0, 0.5)",
+				}}
+			>
+				<Navbar />
+			</div> */}
 			<HeroHomePage />
 			<BrandComponent />
 			<Influencers />

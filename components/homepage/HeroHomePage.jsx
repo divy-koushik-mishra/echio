@@ -11,6 +11,7 @@ import {
 	loco,
 } from "@/public/index";
 import Navbar from "../Navbar";
+import { Button } from "../others/Button";
 
 export default function HeroHomePage() {
 	return (
@@ -32,19 +33,17 @@ export default function HeroHomePage() {
 				</h1>
 				<div className="flex justify-center items-start mb-10 max-w-[97rem]">
 					<div className="flex flex-col max-w-[21.375rem] gap-8 items-center">
-						<p className="text-[#eee] font-syne text-lg leading-8">
+						<p className="text-[#eee] font-syne text-lg leading-8 mt-[3.5rem]">
 							Dive into Echio’s AI-driven ecosystem and explore the intriguing
 							possibilities lying with redefined influencer experience for all.
 						</p>
 						<div className="px-10">
-							<button
-								className={`font-inter flex justify-center items-center bg-gradient-to-r from-[#00D4F1] via-[#00CFEB] to-[#00B6CF] text-black text-xl font-medium rounded-[0.25rem] py-[0.6875rem] pr-4 pl-6 transition duration-300 ease-in-out hover:shadow-top-md hover:shadow-bottom-md`}
-							>
-								Get Started
-								<span className="">
-									<Image src={arrowRight} alt="logo" />
-								</span>
-							</button>
+							<Button
+								button="default"
+								className="![border-image:unset] !bg-white !text-black"
+								rectangleClassName="!bg-neutral-white-lite"
+								text="Get Started"
+							/>
 						</div>
 					</div>
 					<Image src={circle} alt="circle" />

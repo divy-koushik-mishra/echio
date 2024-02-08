@@ -1,9 +1,10 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { echio, arrowRight } from "@/public/index";
+import { echio } from "@/public/index";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { Button } from "./others/Button";
 
 const Navbar = () => {
 	const [activeTag, setActiveTag] = useState("Home");
@@ -49,12 +50,12 @@ const Navbar = () => {
 					</li>
 				))}
 			</ul>
-			<button className="font-inter flex justify-center items-center bg-gradient-to-r from-[#00D4F1] via-[#00CFEB] to-[#00B6CF] text-black text-xl font-medium rounded-[0.25rem] py-[0.6875rem] pr-4 pl-6 transition duration-300 ease-in-out hover:shadow-top-md hover:shadow-bottom-md">
-				Login Now
-				<span>
-					<Image src={arrowRight} alt="logo" />
-				</span>
-			</button>
+			<Button
+				button="default"
+				className="![border-image:unset] !bg-white !text-black"
+				rectangleClassName="!bg-neutral-white-lite"
+				text="Login Now"
+			/>
 		</div>
 	);
 };

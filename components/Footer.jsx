@@ -21,10 +21,20 @@ export default function Footer() {
     }
 
     .text-gradient {
-			background:linear-gradient(to right, #00C5D4, #000);
+      background: linear-gradient(to right, #00C5D4, #000);
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
+    }
+
+    .button-gradient {
+      transition: background 300ms ease-in-out;
+    }
+
+    .button-gradient:hover {
+      background: linear-gradient(to bottom, #00D4F1, #00CFEB, #00B6CF);
+      color: black; /* Change text color to black on hover */
+      border: none; /* Hide border on hover */
     }
   `}
 			</style>
@@ -37,7 +47,7 @@ export default function Footer() {
 							className="w-[18rem] h-16"
 						/>
 						<button
-							className={`font-inter flex justify-center items-center border text-xl text-gradient border-gradient font-medium rounded-[0.25rem] px-6 py-4 transition duration-300 ease-in-out hover:shadow-top-md hover:shadow-bottom-md `}
+							className={`font-inter flex justify-center items-center border text-xl text-gradient border-gradient font-medium rounded-[0.25rem] px-6 py-3.5 button-gradient`}
 						>
 							Stay in Touch
 						</button>

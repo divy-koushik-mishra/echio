@@ -16,7 +16,9 @@ import sadar from "./sadar.png";
 import qlan from "./qlan.png";
 import loco from "./loco.png";
 import influencerone from "./influencerone.png";
+import influencerOne from "./influencerOne.svg";
 import influencertwo from "./influencer2.png";
+import influencerTwo from "./influencerTwo.svg";
 import studioone from "./studioone.png";
 import studiotwo from "./studiotwo.png";
 import brandImage from "./brand-image.png";
@@ -36,6 +38,7 @@ import computer from "./computer.svg";
 import laptop from "./laptop.svg";
 import servicePhone from "./servicePhone.svg";
 import monetization from "./monetization.svg";
+import monetizationWhite from "./monetizationWhite.svg";
 import studioHeroImage from "./studioHeroImage.svg";
 import cameraWhite from "./cameraWhite.svg";
 import soundWhite from "./soundWhite.svg";
@@ -64,6 +67,11 @@ import collageOne from "./collage-1.svg";
 import collageTwo from "./collage-2.svg";
 import collageThree from "./collage-3.svg";
 import Graph from "./Graph.png";
+import grayBorderCubeTestimonials from "./grayBorderCubeTestimonials.svg";
+import solidCubeTestimonials from "./solidCubeTestimonials.svg";
+import semiCircleTestimonials from "./semiCircleTestimonials.svg";
+import angelInvestor from "./angelInvestor.svg";
+import founder from "./founder.svg";
 
 export {
 	echio,
@@ -132,4 +140,12 @@ export {
 	collageTwo,
 	collageThree,
 	Graph,
+	influencerOne,
+	influencerTwo,
+	monetizationWhite,
+	grayBorderCubeTestimonials,
+	solidCubeTestimonials,
+	semiCircleTestimonials,
+	angelInvestor,
+	founder,
 };

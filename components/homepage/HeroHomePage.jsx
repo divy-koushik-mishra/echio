@@ -31,7 +31,7 @@ export default function HeroHomePage() {
 				<h1 className="text-center text-transparent font-syne text-[8.125rem] font-bold bg-gradient-to-b from-[#C8F8FF] to-[#19C2D9] bg-clip-text ">
 					Viral.
 				</h1>
-				<div className="flex justify-center items-start mb-10 max-w-[97rem]">
+				<div className="flex justify-center items-start mb-10 max-w-[111rem]">
 					<div className="flex flex-col max-w-[21.375rem] gap-8 items-center">
 						<p className="text-[#eee] font-syne text-lg leading-8 mt-[3.5rem]">
 							Dive into Echio’s AI-driven ecosystem and explore the intriguing

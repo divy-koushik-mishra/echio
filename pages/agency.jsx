@@ -8,7 +8,7 @@ import React from "react";
 export default function agency() {
 	return (
 		<main className={`flex min-h-screen flex-col`}>
-			<Navbar />
+			{/* <Navbar /> */}
 			<HeroAgencyPage />
 			<AgencyAppFeatures />
 			<Testimonials />

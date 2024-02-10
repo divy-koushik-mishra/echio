@@ -1,6 +1,6 @@
 import FooterBlack from "@/components/FooterBlack";
 import Navbar from "@/components/Navbar";
-import TestimonialsBlack from "@/components/TestimonialsBlack";
+import TestimonialsBlack from "@/components/TestimonialsTopToBottom";
 import HeroServicePage from "@/components/service/HeroServicePage";
 import ServiceApp from "@/components/service/ServiceApp";
 import React from "react";

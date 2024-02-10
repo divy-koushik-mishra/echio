@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Graph } from "@/public/index";
+import { agencyPage } from "@/public/index";
 import { Button } from "../others/Button";
 
 export default function Agency() {
@@ -15,7 +15,7 @@ export default function Agency() {
 		>
 			<div className="flex justify-center items-center gap-16 mx-20 my-[16rem]">
 				<div className="flex justify-center items-center overflow-hidden">
-					<Image src={Graph} alt="graph" className="w-4/6 h-[90%]" />
+					<Image src={agencyPage} alt="graph" className="w-4/6 h-[90%]" />
 				</div>
 				<div className="flex flex-start flex-col">
 					<h1 className="text-transparent text-[5rem] font-syne font-bold bg-gradient-to-b from-[#00EDFF] to-[#CBFBFF] bg-clip-text">

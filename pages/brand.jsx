@@ -5,6 +5,7 @@ import HeroBrandPage from "@/components/brand/HeroBrandPage";
 import TopFeatures from "@/components/brand/TopFeatures";
 import UsedBy from "@/components/Testimonials";
 import React from "react";
+import TestimonailsFooterBlack from "@/components/others/TestimonailsFooterBlack";
 
 export default function Brand() {
 	return (
@@ -13,8 +14,7 @@ export default function Brand() {
 			<HeroBrandPage />
 			{/* <TopFeatures /> */}
 			<BrandAndProductShoot />
-			<UsedBy />
-			<FooterBlack />
+			<TestimonailsFooterBlack />
 		</main>
 	);
 }

@@ -72,6 +72,14 @@ import solidCubeTestimonials from "./solidCubeTestimonials.svg";
 import semiCircleTestimonials from "./semiCircleTestimonials.svg";
 import angelInvestor from "./angelInvestor.svg";
 import founder from "./founder.svg";
+import agencyPage from "./agencyPage.png";
+import brandHero from "./brandHero.png";
+import echioLogoFooter from "./EchioLogoFooter.png";
+import influencerHeroImage from "./influencerHeroImage.png";
+import search from "./search.png";
+import searchPointer from "./searchPointer.png";
+import networkWithOthers from "./networkWithOthers.png";
+import networkWithOthersPointer from "./networkWithOthersPointer.png";
 
 export {
 	echio,
@@ -148,4 +156,12 @@ export {
 	semiCircleTestimonials,
 	angelInvestor,
 	founder,
+	agencyPage,
+	brandHero,
+	echioLogoFooter,
+	influencerHeroImage,
+	search,
+	searchPointer,
+	networkWithOthers,
+	networkWithOthersPointer,
 };

@@ -8,6 +8,7 @@ import {
 	influencerTwo,
 	monetization,
 	monetizationWhite,
+	brandHero,
 } from "@/public/index";
 
 export default function HeroBrandPage() {
@@ -31,7 +32,9 @@ export default function HeroBrandPage() {
 					Taking care of your requirements by driving it with AI
 				</p>
 				<div className="mt-10 mx-20 mb-[12.5rem] flex justify-center items-center">
-					<div className="w-[80rem] h-[51.25rem] rounded-lg border border-[#C8F8FF] bg-[#d9d9d9] bg-opacity-25"></div>
+					<div className="w-[80rem] h-[51.25rem] rounded-lg border border-[#C8F8FF] bg-[#d9d9d9] bg-opacity-25">
+						<Image src={brandHero} alt="hero-image-brand" />
+					</div>
 				</div>
 			</div>
 			<div className="">

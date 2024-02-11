@@ -17,7 +17,7 @@ import {
 const AngelInvestor = () => {
 	return (
 		<div
-			className="pt-24 mb-[7.5rem]"
+			className="pt-24 pb-[7.5rem]"
 			style={{
 				backgroundImage: `linear-gradient(180deg, #252525 0%, #000 100%)`,
 				backgroundSize: "cover",
@@ -25,7 +25,7 @@ const AngelInvestor = () => {
 				color: "#FFF",
 			}}
 		>
-			<h1 className="text-center font-medium font-syne text-[2rem] text-[#090B0B] mb-8">
+			<h1 className="text-center font-medium font-syne text-[2rem] text-[#eee] mb-8">
 				Proudly Used by
 			</h1>
 			<div className="flex justify-around items-center mb-[2rem] mx-[28rem]">
@@ -62,10 +62,10 @@ const AngelInvestor = () => {
 					<Image src={angelInvestor} alt="investor-image" />
 				</div>
 				<div className="inline-block text-center">
-					<h1 className="font-inter font-bold text-2xl text-[#090B0B]">
+					<h1 className="font-inter font-bold text-2xl text-[#eee]">
 						John Doe
 					</h1>
-					<p className="font-inter text-lg text-[#090B0B]">Angel Investor</p>
+					<p className="font-inter text-lg text-[#eee]">Angel Investor</p>
 				</div>
 			</div>
 		</div>
@@ -75,7 +75,7 @@ const AngelInvestor = () => {
 const Founder = () => {
 	return (
 		<div
-			className="text-white pt-24 mb-[7.5rem]"
+			className="pt-24 pb-[7.5rem]"
 			style={{
 				backgroundImage: `linear-gradient(180deg, #252525 0%, #000 100%)`,
 				backgroundSize: "cover",
@@ -83,7 +83,7 @@ const Founder = () => {
 				color: "#FFF",
 			}}
 		>
-			<h1 className="text-center font-medium font-syne text-[2rem] text-[#090B0B] mb-8">
+			<h1 className="text-center font-medium font-syne text-[2rem] text-[#eee] mb-8">
 				Proudly Used by
 			</h1>
 			<div className="flex justify-around items-center mb-[2rem] mx-[28rem]">
@@ -120,10 +120,8 @@ const Founder = () => {
 					<Image src={founder} alt="founder-image" />
 				</div>
 				<div className="inline-block text-center">
-					<h1 className="font-inter font-bold text-2xl text-[#090B0B]">
-						Antonio
-					</h1>
-					<p className="font-inter text-lg text-[#090B0B]">Ceo - Founder</p>
+					<h1 className="font-inter font-bold text-2xl text-[#eee]">Antonio</h1>
+					<p className="font-inter text-lg text-[#eee]">Ceo - Founder</p>
 				</div>
 			</div>
 		</div>

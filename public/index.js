@@ -80,6 +80,15 @@ import search from "./search.png";
 import searchPointer from "./searchPointer.png";
 import networkWithOthers from "./networkWithOthers.png";
 import networkWithOthersPointer from "./networkWithOthersPointer.png";
+import chat from "./chat.png";
+import chatPointer from "./chatPointer.png";
+import connectWithOthers from "./connectWithOthers.png";
+import profile from "./profile.png";
+import profilePointer from "./profilePointer.png";
+import services from "./Services.png";
+import servicesPointer from "./servicesPointer.png";
+import campaigns from "./campaigns.png";
+import brandDeals from "./brandDeals.png";
 
 export {
 	echio,
@@ -164,4 +173,13 @@ export {
 	searchPointer,
 	networkWithOthers,
 	networkWithOthersPointer,
+	chat,
+	chatPointer,
+	connectWithOthers,
+	profile,
+	profilePointer,
+	services,
+	servicesPointer,
+	campaigns,
+	brandDeals,
 };

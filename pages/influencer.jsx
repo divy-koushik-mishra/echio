@@ -6,6 +6,8 @@ import HeroInfluencerPage from "@/components/influencer/HeroInfluencerPage";
 import StudioForInfluencer from "@/components/influencer/StudioForInfluencer";
 import UsedByInfluencer from "@/components/TestimonialsTopToBottom";
 import React from "react";
+import AppFeaturesWhite from "@/components/influencer/AppFeaturesWhite";
+import AppFeaturesBlack from "@/components/influencer/AppFeaturesBlack";
 
 export default function influencer() {
 	return (
@@ -13,6 +15,8 @@ export default function influencer() {
 			{/* <Navbar /> */}
 			<HeroInfluencerPage />
 			<AppFeatures />
+			<AppFeaturesWhite />
+			<AppFeaturesBlack />
 			<DownloadApp />
 			<StudioForInfluencer />
 			<UsedByInfluencer />

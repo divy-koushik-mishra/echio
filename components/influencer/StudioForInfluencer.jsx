@@ -50,35 +50,54 @@ export default function StudioForInfluencer() {
 							Studio for Influencers
 						</h1>
 					</div>
-					<div className="flex justify-center items-center gap-20">
+					<div className="flex justify-evenly items-center gap-20">
 						<Image
 							src={studioForInfluencer}
 							alt="studio-image-1"
 							className="w-[40rem] h-[41.75rem]"
 						/>
-						<Image
-							src={studiotwo}
-							alt="studio-image-2"
-							className="w-[40rem] h-[41.75rem]"
-						/>
+						<div className="inline-block">
+							{cardComponents.slice(0, 2).map((index) => (
+								<div
+									key={index.id}
+									className="px-4 py-6 border-b-2 border-gradient max-w-[18.875rem]"
+								>
+									<Image src={index.image} alt="image" className="mb-3" />
+									<h1 className="font-syne text-2xl font-medium">
+										{index.heading}
+									</h1>
+									<p className="text-base font-syne text-[#090B0Bd]">
+										Unleash your creativity and turn concepts into captivating
+										content effortlessly
+									</p>
+								</div>
+							))}
+						</div>
 					</div>
 				</div>
-				<div className="mx-56 flex justify-evenly items-center gap-6 mb-[8rem]">
-					{cardComponents.map((index) => (
-						<div
-							key={index.id}
-							className="px-4 py-6 border-b-2 border-gradient max-w-[18.875rem]"
-						>
-							<Image src={index.image} alt="image" className="mb-3" />
-							<h1 className="font-syne text-2xl font-medium">
-								{index.heading}
-							</h1>
-							<p className="text-base font-syne text-[#090B0Bd]">
-								Unleash your creativity and turn concepts into captivating
-								content effortlessly
-							</p>
-						</div>
-					))}
+				<div className="flex flex-row-reverse justify-evenly items-center gap-6 mb-[8rem]">
+					<Image
+						src={studiotwo}
+						alt="studio-image-2"
+						className="w-[40rem] h-[41.75rem]"
+					/>
+					<div className="inline-block">
+						{cardComponents.slice(2, 4).map((index) => (
+							<div
+								key={index.id}
+								className="px-4 py-6 border-b-2 border-gradient max-w-[18.875rem]"
+							>
+								<Image src={index.image} alt="image" className="mb-3" />
+								<h1 className="font-syne text-2xl font-medium">
+									{index.heading}
+								</h1>
+								<p className="text-base font-syne text-[#090B0Bd]">
+									Unleash your creativity and turn concepts into captivating
+									content effortlessly
+								</p>
+							</div>
+						))}
+					</div>
 				</div>
 			</div>
 		</>

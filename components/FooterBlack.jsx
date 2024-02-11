@@ -31,7 +31,7 @@ export default function FooterBlack() {
 			<div
 				className=""
 				style={{
-					backgroundImage: `linear-gradient(180deg, #252525 0%, #000 100%)`,
+					backgroundImage: `linear-gradient(0deg, #252525 0%, #000 100%)`,
 					backgroundSize: "cover",
 					backgroundPosition: "top",
 					boxShadow: "inset 0 0 10px 10px rgba(0, 0, 0, 0.5)",

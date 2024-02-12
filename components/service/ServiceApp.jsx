@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import {
+	serviceChat,
+	downloadAppNew,
 	appStore,
 	googlePlay,
 	downloadApp,
@@ -22,8 +24,8 @@ export default function ServiceApp() {
 						</p>
 					</div>
 					<div className="w-[34.25rem] h-[36.1875rem]">
-						<Image src={influencertwo} alt="mobile-image" />
-						<div className="relative left-[176px] bottom-[87px]">
+						<Image src={serviceChat} alt="mobile-image" />
+						<div className="relative left-[176px] bottom-[30px]">
 							<Image src={monetization} alt="mobile-image" />
 						</div>
 					</div>
@@ -47,7 +49,7 @@ export default function ServiceApp() {
 						</div>
 					</div>
 					<div className="h-[52rem]">
-						<Image src={downloadApp} alt="mobile-image" />
+						<Image src={downloadAppNew} alt="mobile-image" />
 					</div>
 				</div>
 			</div>

@@ -91,6 +91,9 @@ import campaigns from "./campaigns.png";
 import brandDeals from "./brandDeals.png";
 import agencyMonetization from "./agencyMonetization.png";
 import agencyLower from "./agencyLower.png";
+import serviceHeroMockup from "./serviceHeroMockup.png";
+import serviceChat from "./serviceChat.png";
+import downloadAppNew from "./downloadAppNew.png";
 
 export {
 	echio,
@@ -186,4 +189,7 @@ export {
 	brandDeals,
 	agencyMonetization,
 	agencyLower,
+	serviceHeroMockup,
+	serviceChat,
+	downloadAppNew,
 };

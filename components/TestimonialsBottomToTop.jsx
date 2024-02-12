@@ -19,7 +19,7 @@ const AngelInvestor = () => {
 		<div
 			className="pt-24 pb-[7.5rem]"
 			style={{
-				backgroundImage: `linear-gradient(180deg, #252525 0%, #000 100%)`,
+				backgroundImage: `linear-gradient(360deg, #252525 0%, #000 100%)`,
 				backgroundSize: "cover",
 				backgroundPosition: "top",
 				color: "#FFF",
@@ -77,7 +77,7 @@ const Founder = () => {
 		<div
 			className="pt-24 pb-[7.5rem]"
 			style={{
-				backgroundImage: `linear-gradient(180deg, #252525 0%, #000 100%)`,
+				backgroundImage: `linear-gradient(360deg, #252525 0%, #000 100%)`,
 				backgroundSize: "cover",
 				backgroundPosition: "top",
 				color: "#FFF",
@@ -128,7 +128,7 @@ const Founder = () => {
 	);
 };
 
-export default function TestimonialsTopToBottom() {
+export default function TestimonialsBottomToTop() {
 	const [showAngelInvestor, setShowAngelInvestor] = useState(true);
 
 	useEffect(() => {

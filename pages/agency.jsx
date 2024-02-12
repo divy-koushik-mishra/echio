@@ -1,6 +1,5 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import Testimonials from "@/components/Testimonials";
+import FooterBlack from "@/components/FooterBlack";
+import TestimonialsTopToBottom from "@/components/TestimonialsTopToBottom";
 import AgencyAppFeatures from "@/components/agency/AgencyAppFeatures";
 import HeroAgencyPage from "@/components/agency/HeroAgencyPage";
 import React from "react";
@@ -11,8 +10,8 @@ export default function agency() {
 			{/* <Navbar /> */}
 			<HeroAgencyPage />
 			<AgencyAppFeatures />
-			<Testimonials />
-			<Footer />
+			<TestimonialsTopToBottom />
+			<FooterBlack />
 		</main>
 	);
 }

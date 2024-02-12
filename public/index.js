@@ -89,6 +89,8 @@ import services from "./Services.png";
 import servicesPointer from "./servicesPointer.png";
 import campaigns from "./campaigns.png";
 import brandDeals from "./brandDeals.png";
+import agencyMonetization from "./agencyMonetization.png";
+import agencyLower from "./agencyLower.png";
 
 export {
 	echio,
@@ -182,4 +184,6 @@ export {
 	servicesPointer,
 	campaigns,
 	brandDeals,
+	agencyMonetization,
+	agencyLower,
 };

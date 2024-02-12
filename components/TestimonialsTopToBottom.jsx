@@ -128,7 +128,7 @@ const Founder = () => {
 	);
 };
 
-export default function Testimonials() {
+export default function TestimonialsTopToBottom() {
 	const [showAngelInvestor, setShowAngelInvestor] = useState(true);
 
 	useEffect(() => {
